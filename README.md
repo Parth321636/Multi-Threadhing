@@ -1,5 +1,5 @@
-Multi Threading Assignment
-Methodology
+**Multi Threading Assignment**
+**Methodology**
 1. Matrix Multiplication: mat_mul() function conducts matrix multiplication of matrices A and B using np.dot(). The answer is stored at a specific index of result array.
 2. Threads utilization: Implement runthreads() to execute matrix multiplication using n (1-10) number of threads. Initialize a list threads to store thread objects. Iterate over the list of matrices, creating a new thread for each matrix multiplication operation using threading.Thread() constructor. Start each thread using the start() method. After creating all threads, wait for all threads to complete using the join() method. Return the time taken for the multiplication operations.
 3. Matrix Generation: Generating a constant matrix A of size 1000x1000 using numpy.random.rand(). Creating a list of 100 random matrices of the same size.
